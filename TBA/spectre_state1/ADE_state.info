@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("8BitALU" "TBA" "schematic" "spectre")
+descriptionText = "TestBenchSTuff"
