@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 NOV 2015 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 NOV 2015 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -142,32 +142,148 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 59.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 59.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 59.
+Underfull \hbox (badness 10000) in paragraph at lines 13--22
 
-[1
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--36
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 36.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+ [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] [3] (./Report.aux) ) 
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 70.
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--129
+
+ []
+
+[2] [3] [4] (./Report.aux) ) 
 Here is how much of TeX's memory you used:
- 1745 strings out of 493089
- 25845 string characters out of 6134842
- 87352 words of memory out of 5000000
- 5240 multiletter control sequences out of 15000+600000
- 6376 words of font info for 23 fonts, out of 8000000 for 9000
+ 1779 strings out of 493089
+ 26408 string characters out of 6134842
+ 91352 words of memory out of 5000000
+ 5270 multiletter control sequences out of 15000+600000
+ 7288 words of font info for 26 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,4n,23p,235b,107s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr12.pfb>
-Output written on Report.pdf (3 pages, 32983 bytes).
+ 37i,4n,23p,235b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb>
+Output written on Report.pdf (4 pages, 56286 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 33 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
