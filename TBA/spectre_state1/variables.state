@@ -1,12 +1,20 @@
 savedComponent = (let
+<<<<<<< HEAD
 (tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13)
+=======
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15)
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 (unless tmp1
 tmp1 = make_sevVariableStruct()
 )
 (unless tmp1
 tmp1 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp1->name = "vsel8mux0"
+=======
+tmp1->name = "vcin2add"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp1->expression = "0"
 tmp1->index = 1
 (unless tmp2
@@ -15,7 +23,11 @@ tmp2 = make_sevVariableStruct()
 (unless tmp2
 tmp2 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp2->name = "vsel8mux1"
+=======
+tmp2->name = "vx2add"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp2->expression = "0"
 tmp2->index = 2
 (unless tmp3
@@ -24,7 +36,11 @@ tmp3 = make_sevVariableStruct()
 (unless tmp3
 tmp3 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp3->name = "vsel8mux2"
+=======
+tmp3->name = "vy2add"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp3->expression = "0"
 tmp3->index = 3
 (unless tmp4
@@ -33,7 +49,11 @@ tmp4 = make_sevVariableStruct()
 (unless tmp4
 tmp4 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp4->name = "ven3and"
+=======
+tmp4->name = "vx2xor"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp4->expression = "0"
 tmp4->index = 4
 (unless tmp5
@@ -42,7 +62,11 @@ tmp5 = make_sevVariableStruct()
 (unless tmp5
 tmp5 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp5->name = "vinv"
+=======
+tmp5->name = "vy2xor"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp5->expression = "0"
 tmp5->index = 5
 (unless tmp6
@@ -51,7 +75,11 @@ tmp6 = make_sevVariableStruct()
 (unless tmp6
 tmp6 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp6->name = "vsel2mux"
+=======
+tmp6->name = "ven3and"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp6->expression = "0"
 tmp6->index = 6
 (unless tmp7
@@ -60,7 +88,11 @@ tmp7 = make_sevVariableStruct()
 (unless tmp7
 tmp7 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp7->name = "vseldemux"
+=======
+tmp7->name = "vinv"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp7->expression = "0"
 tmp7->index = 7
 (unless tmp8
@@ -69,7 +101,11 @@ tmp8 = make_sevVariableStruct()
 (unless tmp8
 tmp8 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp8->name = "vx2and"
+=======
+tmp8->name = "vsel2mux"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp8->expression = "0"
 tmp8->index = 8
 (unless tmp9
@@ -78,7 +114,11 @@ tmp9 = make_sevVariableStruct()
 (unless tmp9
 tmp9 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp9->name = "vx2or"
+=======
+tmp9->name = "vseldemux"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp9->expression = "0"
 tmp9->index = 9
 (unless tmp10
@@ -87,7 +127,11 @@ tmp10 = make_sevVariableStruct()
 (unless tmp10
 tmp10 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp10->name = "vx3and"
+=======
+tmp10->name = "vx2and"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp10->expression = "0"
 tmp10->index = 10
 (unless tmp11
@@ -96,7 +140,11 @@ tmp11 = make_sevVariableStruct()
 (unless tmp11
 tmp11 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp11->name = "vy2and"
+=======
+tmp11->name = "vx2or"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp11->expression = "0"
 tmp11->index = 11
 (unless tmp12
@@ -105,7 +153,11 @@ tmp12 = make_sevVariableStruct()
 (unless tmp12
 tmp12 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp12->name = "vy2or"
+=======
+tmp12->name = "vx3and"
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 tmp12->expression = "0"
 tmp12->index = 12
 (unless tmp13
@@ -114,8 +166,33 @@ tmp13 = make_sevVariableStruct()
 (unless tmp13
 tmp13 = (ncons nil)
 )
+<<<<<<< HEAD
 tmp13->name = "vy3and"
 tmp13->expression = "0"
 tmp13->index = 13
 list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13)
+=======
+tmp13->name = "vy2and"
+tmp13->expression = "0"
+tmp13->index = 13
+(unless tmp14
+tmp14 = make_sevVariableStruct()
+)
+(unless tmp14
+tmp14 = (ncons nil)
+)
+tmp14->name = "vy2or"
+tmp14->expression = "0"
+tmp14->index = 14
+(unless tmp15
+tmp15 = make_sevVariableStruct()
+)
+(unless tmp15
+tmp15 = (ncons nil)
+)
+tmp15->name = "vy3and"
+tmp15->expression = "0"
+tmp15->index = 15
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15)
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 )

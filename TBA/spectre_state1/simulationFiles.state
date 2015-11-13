@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 allVectorFiles nil
 VcdInfoFile ""
 stimulusFile nil
@@ -7,6 +8,20 @@ VcdFile ""
 VectorFile nil
 EVcdFile ""
 allStimulusFiles nil
+=======
+EVcdInfoFile ""
+VcdInfoFile ""
+stimulusFile nil
+allVectorFiles nil
+definitionFiles nil
+hlcheck "off"
+allDefinitionFiles nil
+allIncludedPaths nil
+EVcdFile ""
+VectorFile nil
+allStimulusFiles nil
+VcdFile ""
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 includePath ""
 hlcheck "off"
 allDefinitionFiles nil
