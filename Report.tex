@@ -3,7 +3,6 @@
 \usepackage{graphicx}
 \begin {document}
 
-	% Just focusing on content right now - will format at the end
 	\large \textbf{A Proposed Implementation of an 8 Bit ALU Bit Slice}
 	\normalsize
 	\begin{center}
@@ -69,16 +68,12 @@
 	transistors were sized such that both the pull-up and the pull-down network
 	both resulted in an ultimate unity resistance, using a base unit of 3$\lambda$. 
 	For reference, see some samples below:
-  
+	\newline \newline \newline \newline \newline \newline \newline
+ 	3-input and:\\
+  	\includegraphics[scale=0.4]{3and.png} \\
 	\newline \newline
-
-  3-input and:\\
-  \includegraphics[scale=0.4]{3and.png}
-  \\
-  3-input xor:\\
-  \includegraphics[scale=0.4]{xor.png}
-  \\
-	
+  	3-input xor:\\
+ 	 \includegraphics[scale=0.3]{xor.png} \\
 	\newline \newline
 	\textbf{MUX / DEMUX Implementation and Uses:}
 	\newline \newline
@@ -91,32 +86,27 @@
 	compress the left and right shift modules into one by cleverly mapping the input and easily 
 	implement the clear operation. The implementation of these gates are pictured below:
 	\newline \newline
-  Transmission gate:\\
-  \includegraphics[scale=0.4]{tgate.png}
-  \\
-
-  Shifter:\\
-  \includegraphics[scale=0.4]{shift.png}
-  \\
-
-  Partial Demux:\\
-  \includegraphics[scale=0.4]{demuxpart.png}
-  \\
+ 	Transmission gate:\\
+ 	 \includegraphics[scale=0.4]{tgate.png} \\
+	 \newline \newline \newline \newline \newline \newline \newline \newline
+	Shifter:\\
+ 	 \includegraphics[scale=0.3]{shift.png} \\
+	 \newline \newline
+	Partial Demux:\\
+  	\includegraphics[scale=0.4]{demuxpart.png} \\
 	\newline \newline
 	A final large 8-input MUX was then used to serve as the final channel to the ultimate output 
 	bit for the slice. Though each OpCode is 4 bits in length, we managed to come up with an 
 	interesting mapping such that only the 3 least significant bits are used:
 	\newline \newline
-  \includegraphics[scale=0.4]{8mux.png}
-  \\
+  	\includegraphics[scale=0.4]{8mux.png} \\
 	\newline \newline
 	\textbf{Adder Implementation:}
 	\newline \newline
 	We chose to go with a Carry Look-Ahead adder implementation using a combination of AND,
 	OR, and XOR gates, as shown below:
 	\newline \newline
-  \includegraphics[scale=0.4]{add.png}
-  \\
+ 	\includegraphics[scale=0.4]{add.png} \\
 	\newline \newline
 	The Look-Ahead implementation would allow for the parallel computation of the Carry-Out and
 	Sum quantities, which would allow us to quickly send the carry-out number on the look-ahead
@@ -133,14 +123,12 @@
 	into other blocks of the circuit.
 	\newline \newline
 	
-  \\
-  \includegraphics[scale=0.4]{AndDelay.png}
-  \\
-
-  This demonstrates the delay from the Bitwise AND instruction in the ALU. While not the worst delay
-  path in the ALU, it does a resonable approximation of the work that must be done, since
-  it travels along the farthest path (besides adder instructions). The propagation delay
-  here is about 209 ps.
+  	\includegraphics[scale=0.4]{AndDelay.png} \\
+	\newline \newline
+  	This demonstrates the delay from the Bitwise AND instruction in the ALU. While not the worst 
+	delay path in the ALU, it does a resonable approximation of the work that must be done, since 
+	it travels along the farthest path (besides adder instructions). The propagation delay
+	here is about 209 ps.
 	\newline \newline
 	After trying a variety of OpCodes, we found that the slice worked as far as functionality 
 	is concerned. For this stage of the project, this was a reasonable testament of our progress
