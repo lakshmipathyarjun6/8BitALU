@@ -1,6 +1,65 @@
 (relxOpts mosDevDegVbconst_p) ""
 (relxOpts mosDevDegVbconst_pModels) ""
 (relxOpts gaSkipFresh) nil
+<<<<<<< HEAD
+(relxOpts mosDevDegVgsweep_start_n) ""
+(relxOpts mosAgeModelFilePath) ""
+(relxOpts mosDevDegVgsweep_start_nModels) ""
+(relxOpts presetBlock) ""
+(relxOpts mosDevDegVgsweep_end_n) ""
+(relxOpts mosAppendDeviceAge) nil
+(relxOpts mosDevDegVgsweep_start_pModels) ""
+(relxOpts mosDumpAgeModel) nil
+(relxOpts enableGradualAging) nil
+(relxOpts mosModifyNetlist) nil
+(relxOpts mosDevDegVgsweep_start_p) ""
+(relxOpts mosCompactAgeModel) nil
+(relxOpts enableAging) nil
+(relxOpts mosAgingTimeUnit) "Years"
+(relxOpts gaAlterValue) ""
+(relxOpts gaAlterParamListBox) (nil choices nil value nil)
+(relxOpts gaAlterTime) ""
+(relxOpts stress_data_dir) ""
+(relxOpts gaAlterParam) ""
+(relxOpts fresh_data_dir) ""
+(relxOpts aged_data_dir) ""
+(relxOpts gaSkipLast) nil
+(relxOpts mosHciIdMethod) "ids"
+(relxOpts stress_var_list) nil
+(relxOpts simModeFile) "input.bs0"
+(relxOpts gaInputStressDir) ""
+(relxOpts simModeType) "all"
+(relxOpts aged_var_list) nil
+(relxOpts mosAgingTime) "10"
+(relxOpts mosMode) (t t t)
+(relxOpts mosAgeDomain) "loglog"
+(relxOpts gaIterationNum) ""
+(relxOpts mosAgeModelLimitNum) "10"
+(relxOpts mosAgeMethod) "agemos"
+(relxOpts mosAgeModelLimitType) "age"
+(relxOpts otherRXOptions) ""
+(relxOpts mosAgeModelLimit) nil
+(relxOpts mosHciIgateMethod) "calculate"
+(relxOpts mosHciAccuracy) "liberal (1)"
+(relxOpts mosHciLifeTimeMethodTable) ""
+(relxOpts mosDevDegVgsat) ""
+(relxOpts mosHciOpMethod) "calculate"
+(relxOpts mosDevDegVddSetting) nil
+(relxOpts doADELPostProcess) t
+(relxOpts mosCalcLifetime) nil
+(relxOpts gaAgePoints) ""
+(relxOpts gaAgePointsUnit) "Years"
+(relxOpts gaMode) "agepoint"
+(relxOpts gaAgeStepUnit) "Years"
+(relxOpts gaAgeStepStart) ""
+(relxOpts uriLibs) ""
+(relxOpts gaAgeStepStop) ""
+(relxOpts mosDevDegNeedSimulator) nil
+(relxOpts gaAgeStepTotalStep) ""
+(relxOpts mosDeltad) "0.1"
+(relxOpts gaSaveResults) "all"
+(relxOpts mosEffectiveModel) t
+=======
 (relxOpts fresh_data_dir) ""
 (relxOpts stress_data_dir) ""
 (relxOpts aged_data_dir) ""
@@ -62,12 +121,32 @@
 (relxOpts mosDevDegVgsatModels) ""
 (relxOpts mosDevDegVgsweep_end_nModels) ""
 (relxOpts mosDevDegVdd) ""
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 (relxOpts mosDevDegVgsweep_end_p) ""
 (relxOpts mosDevDegModels) ""
 (relxOpts uriMode) "none"
 (relxOpts gaAlterHeadListBox) (nil choices ("#     Time           Param               Value") value nil)
 (relxOpts gaSaveSome) ""
 (relxOpts mosEnableOutputDevDeg) nil
+<<<<<<< HEAD
+(relxOpts mosHciLifeTimeMethod) "calculate"
+(relxOpts mosDevDegVgsatModels) ""
+(relxOpts mosDevDegVgsweep_end_nModels) ""
+(relxOpts mosDevDegVdd) ""
+(relxOpts mosDevDegVthConstCurrSp) nil
+(relxOpts mosDevDegVdsatModels) ""
+(relxOpts mosDevDegVgsweep_end_pModels) ""
+(relxOpts nativeMode) "Spectre native"
+(relxOpts includeFiles) ""
+(relxOpts reportModelParamChanged) nil
+(relxOpts mosDevDegVglinModels) ""
+(relxOpts mosDevDegVthUseId) nil
+(relxOpts mosDevDegVdsat) ""
+(relxOpts mosMinAge) ""
+(relxOpts mosDevDegVdlinModels) ""
+(relxOpts mosVthMethod) "calculate"
+(relxOpts mosDevDegVglin) ""
+=======
 (relxOpts mosDeltad) "0.1"
 (relxOpts gaAgeStepTotalStep) ""
 (relxOpts gaAgeStepStart) ""
@@ -76,12 +155,35 @@
 (relxOpts mosEffectiveModel) t
 (relxOpts gaAgeStepStop) ""
 (relxOpts mosDevDegNeedSimulator) nil
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
 (relxOpts gaAgeStepType) "lin"
 (relxOpts mosDevDegVdconst) ""
 (relxOpts relxTranStart) ""
 (relxOpts mosDevDegSimulatorPath) ""
 (relxOpts enableDegSort) nil
 (relxOpts mosDevDegVdlin) ""
+<<<<<<< HEAD
+(relxOpts relxTranStop) ""
+(relxOpts mosDevDegIdconst) ""
+(relxOpts mosMaskDev) nil
+(relxOpts mosDevDegVdconstwl) ""
+(relxOpts enableRelxpert) nil
+(relxOpts enableRelXTran) nil
+(relxOpts mosMaskDevInstance) ""
+(relxOpts mosDevDegIdconstwl) ""
+(relxOpts mosMaskDevInclude) "include"
+(relxOpts mosDevDegVgstep) ""
+(relxOpts presetType) "lifetime"
+(relxOpts mosDevDegVgstepModels) ""
+(relxOpts enablePreset) nil
+(relxOpts mosDevDegVsconstModels) ""
+(relxOpts mosDevDegVthUseIs) nil
+(relxOpts mosDevDegVbconst_n) ""
+(relxOpts presetValue) ""
+(relxOpts mosDevDegVbconst_nModels) ""
+(relxOpts presetAgeLevel) ""
+(relxOpts mosDevDegVsconst) ""
+=======
 (relxOpts mosMinAge) ""
 (relxOpts mosDevDegVdlinModels) ""
 (relxOpts mosVthMethod) "calculate"
@@ -107,3 +209,4 @@
 (relxOpts gaAgePointsUnit) "Years"
 (relxOpts gaMode) "agepoint"
 (relxOpts doADELPostProcess) t
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078

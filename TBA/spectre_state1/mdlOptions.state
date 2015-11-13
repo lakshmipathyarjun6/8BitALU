@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+(mdlOpts additionals) ""
+(mdlOpts libName) ""
+(mdlOpts viewName) ""
+(mdlOpts cellName) ""
+(mdlOpts mdlFrom) "From File"
+(mdlOpts mdlFile) ""
+(mdlOpts engFormat) 6
+(mdlOpts enable) nil
+(mdlOpts precFormat) "%.15g"
+(mdlOpts formatType) "Default"
+=======
 (mdlOpts engFormat) 6
 (mdlOpts formatType) "Default"
 (mdlOpts cellName) ""
@@ -8,3 +20,4 @@
 (mdlOpts precFormat) "%.15g"
 (mdlOpts mdlFrom) "From File"
 (mdlOpts enable) nil
+>>>>>>> bc091848aea11d3e5caa0a054599999178171078
