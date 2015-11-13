@@ -4,10 +4,14 @@
 \begin {document}
 
 	% Just focusing on content right now - will format at the end
-	A Proposed Implementation of an 8 Bit ALU Bit Slice
-	\newline
-	High Level Description
-	\newline
+	\large \textbf{A Proposed Implementation of an 8 Bit ALU Bit Slice}
+	\normalsize
+	\begin{center}
+		Arjun Lakshmipathy, ID: 804158733 \\
+		Joraaver Chahal, ID: 304200975
+	\end{center}
+	\textbf{High Level Description:}
+	\newline \newline
 	Our decided implementation of the bit slice for this 8 bit ALU attempted to target
 	minimizing the energy delay product while keeping the overall design as intuitive and 
 	readable as possible. Our decided upon implementation was a reasonably modular 
@@ -15,41 +19,48 @@
 	solution to minimizing the energy product delay of the whole slice was to limit the number
 	or transistors used in the circuit. However, in some cases extra transistors were added
 	simply to either:
-		a) Keep the design more readable / maintainable. 
+	
+	\begin{enumerate}[label=(\alph*)]
+		\item Keep the design more readable / maintainable. 
+		\newline \newline
 		or
-		b) Allow a particular component of the circuit to be self-restoring. 
+		\item Allow a particular component of the circuit to be self-restoring. 
+	\end{enumerate}
 	These tradeoffs were determined as acceptable since they would simplify some of the
 	development process moving forward and would ensure that we did not experience any
 	unexpected signal degradation. 
-	
+	\newline \newline
 	Using this approach, we began constructing some basic gates at the transistor level. The most
 	basic gates constructed were the following:
-		Inverter
-		2-input NAND
-		3-input NAND
-		2-input NOR
-		3-input XOR
-		Transmission Gate
-		2-input MUX
-		8-input MUX
-		2-output DEMUX
-	
+	\begin{itemize}
+		\item Inverter
+		\item 2-input NAND
+		\item 3-input NAND
+		\item 2-input NOR
+		\item 3-input XOR
+		\item Transmission Gate
+		\item 2-input MUX
+		\item 8-input MUX
+		\item 2-output DEMUX
+	\end{itemize}
 	All other components of the circuit were more or less assembled from these basic building
-	blocks. These included
-		2-input AND
-		3-input AND
-		2-input OR
-		Logical Shift (left or right)
-		Adder
-	
+	blocks. These included:
+	\begin{itemize}
+		\item 2-input AND
+		\item 3-input AND
+		\item 2-input OR
+		\item Logical Shift (left or right)
+		\item Adder
+	\end{itemize}
 	Finally, using these higher level building blocks, we constructed the "Master" high level
 	schematic to serve as our control for the overall slice.Using our master schematic as 
 	the control and the components as the actual operations of the ALU, we constructed 
 	our overall single bit slice. 
-	\newline
-	More Detailed Breakdowns
-	\newline
-	OR-NOR-AND etc. implementation and uses:
+	\newline \newline
+	\textbf{More Detailed Breakdowns:}
+	\newline \newline
+	\textbf{OR-NOR-AND etc. Implementation and Uses:}
+	\newline \newline
 	Each of these gates was constructed using a static CMOS layout, with the PMOS pull-up 
 	network being complementary to the NMOS pull-down network. Each gate was driven by
 	its own voltage supply and was connected to ground to ensure that it could drive itself and
@@ -57,17 +68,20 @@
 	while others were used to build more complex modules or serve as control blocks. The 
 	transistors were sized such that both the pull-up and the pull-down network
 	both resulted in an ultimate unity resistance, using a base unit of 3$\lambda$. 
-	For reference, see a sample below:
-	
+	For reference, see some samples below:
+  
+	\newline \newline
+
   3-input and:\\
   \includegraphics[scale=0.4]{3and.png}
   \\
-
   3-input xor:\\
   \includegraphics[scale=0.4]{xor.png}
   \\
 	
-	MUX / DEMUX implementation and uses:
+	\newline \newline
+	\textbf{MUX / DEMUX Implementation and Uses:}
+	\newline \newline
 	The primary building blocks for each of these gates were transmission gates, with each 
 	T-Gate having a 3$\lambda$ NMOS and a 6$\lambda$ PMOS. These gates primarily served
 	as control logic for the circuit (our master schematic heavily relies on DEMUX gates), 
@@ -76,7 +90,7 @@
 	in order to minimize power consumption. They also served very crucial roles in allowing us to
 	compress the left and right shift modules into one by cleverly mapping the input and easily 
 	implement the clear operation. The implementation of these gates are pictured below:
-	
+	\newline \newline
   Transmission gate:\\
   \includegraphics[scale=0.4]{tgate.png}
   \\
@@ -88,22 +102,22 @@
   Partial Demux:\\
   \includegraphics[scale=0.4]{demuxpart.png}
   \\
-	
+	\newline \newline
 	A final large 8-input MUX was then used to serve as the final channel to the ultimate output 
 	bit for the slice. Though each OpCode is 4 bits in length, we managed to come up with an 
 	interesting mapping such that only the 3 least significant bits are used:
-	
+	\newline \newline
   \includegraphics[scale=0.4]{8mux.png}
   \\
-	
-	Adder implementation:
+	\newline \newline
+	\textbf{Adder Implementation:}
+	\newline \newline
 	We chose to go with a Carry Look-Ahead adder implementation using a combination of AND,
 	OR, and XOR gates, as shown below:
-	
+	\newline \newline
   \includegraphics[scale=0.4]{add.png}
   \\
-
-	
+	\newline \newline
 	The Look-Ahead implementation would allow for the parallel computation of the Carry-Out and
 	Sum quantities, which would allow us to quickly send the carry-out number on the look-ahead
 	bus for other bit slices to absorb. In this regard, we would be significantly reducing the delay
@@ -112,26 +126,28 @@
 	is activated (controlled via a combination of DEMUX gates). Future iterations of the project 
 	may include changing this implementation, but for now the attempt seemed good enough to
 	suffice.
-	
-	Ending Remarks:
+	\newline \newline
+	\textbf{Ending Remarks:}
+	\newline \newline
 	All components were tested individually for correct functionality before being incorporated 
-	into other blocks of the circuit. To test the high level bit slice, we set up a test bench using
-	the following setup:
+	into other blocks of the circuit.
+	\newline \newline
 	
   \\
   \includegraphics[scale=0.4]{AndDelay.png}
   \\
 
-  This demonstrates the delay from the Bitwise AND path in the ALU. While not the worst delay
-  path in the ALU, it does a resonable approximation that of the work that must be done, since
-  it travels along the farthest path, alongside the adder instructions. The propagation delay
+  This demonstrates the delay from the Bitwise AND instruction in the ALU. While not the worst delay
+  path in the ALU, it does a resonable approximation of the work that must be done, since
+  it travels along the farthest path (besides adder instructions). The propagation delay
   here is about 209 ps.
-	
+	\newline \newline
 	After trying a variety of OpCodes, we found that the slice worked as far as functionality 
 	is concerned. For this stage of the project, this was a reasonable testament of our progress
 	and hard work.
-	
-	Next Steps:
+	\newline \newline
+	\textbf{Next Steps:}
+	\newline \newline
 	In addition to doing the full transistor layout, we may also decide to revise our designs. Since
 	our circuit is modular, this would be reasonably simple to do. We have also not looked into
 	one operation in particular - loading X into memory. For this reason, one particular input pin 
