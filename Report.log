@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 NOV 2015 23:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 NOV 2015 23:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -142,37 +142,144 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<AndDelay.png, id=1, 977.6525pt x 646.415pt>
-File: AndDelay.png Graphic file (type png)
- <use AndDelay.png>
-Package pdftex.def Info: AndDelay.png used on input line 8.
-(pdftex.def)             Requested size: 977.65012pt x 646.41342pt.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 59.
 
-Overfull \hbox (605.27493pt too wide) in paragraph at lines 8--9
-[][] 
+<3and.png, id=1, 616.3025pt x 626.34pt>
+File: 3and.png Graphic file (type png)
+ <use 3and.png>
+Package pdftex.def Info: 3and.png used on input line 63.
+(pdftex.def)             Requested size: 246.51663pt x 250.53156pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
  []
 
 [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \vbox (97.91342pt too high) has occurred while \output is active []
+<xor.png, id=10, 1055.945pt x 649.42625pt>
+File: xor.png Graphic file (type png)
+ <use xor.png>
+Package pdftex.def Info: xor.png used on input line 67.
+(pdftex.def)             Requested size: 422.37051pt x 259.7659pt.
+
+Overfull \hbox (32.37051pt too wide) in paragraph at lines 66--69
+[] 
+ []
 
 
-[2 <./AndDelay.png>] (./Report.aux) ) 
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+
+ []
+
+[2 <./3and.png> <./xor.png>] <tgate.png, id=16, 585.18625pt x 559.08875pt>
+File: tgate.png Graphic file (type png)
+
+<use tgate.png>
+Package pdftex.def Info: tgate.png used on input line 81.
+(pdftex.def)             Requested size: 234.07034pt x 223.63153pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--83
+
+ []
+
+<shift.png, id=17, 888.31876pt x 638.385pt>
+File: shift.png Graphic file (type png)
+ <use shift.png>
+Package pdftex.def Info: shift.png used on input line 85.
+(pdftex.def)             Requested size: 355.32121pt x 255.34947pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--87
+
+ []
+
+[3 <./tgate.png>] <demuxpart.png, id=22, 795.97375pt x 645.41125pt>
+File: demuxpart.png Graphic file (type png)
+
+<use demuxpart.png>
+Package pdftex.def Info: demuxpart.png used on input line 89.
+(pdftex.def)             Requested size: 318.38387pt x 258.15993pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+
+ []
+
+[4 <./shift.png> <./demuxpart.png>] <8mux.png, id=28, 562.1pt x 619.31375pt>
+File: 8mux.png Graphic file (type png)
+
+<use 8mux.png>
+Package pdftex.def Info: 8mux.png used on input line 96.
+(pdftex.def)             Requested size: 224.83601pt x 247.72112pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+
+ []
+
+<add.png, id=29, 1091.07625pt x 635.37375pt>
+File: add.png Graphic file (type png)
+ <use add.png>
+Package pdftex.def Info: add.png used on input line 103.
+(pdftex.def)             Requested size: 436.42278pt x 254.14499pt.
+
+Overfull \hbox (64.04759pt too wide) in paragraph at lines 103--105
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
+
+ []
+
+[5 <./8mux.png>]
+
+./Report.tex:122: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.122   \includegraphics
+                        [scale=0.4]{AndDelay.png}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<AndDelay.png, id=34, 977.6525pt x 646.415pt>
+File: AndDelay.png Graphic file (type png)
+ <use AndDelay.png>
+Package pdftex.def Info: AndDelay.png used on input line 122.
+(pdftex.def)             Requested size: 391.05408pt x 258.56142pt.
+
+Overfull \hbox (18.6789pt too wide) in paragraph at lines 122--124
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+[6 <./add.png>] [7 <./AndDelay.png>] (./Report.aux) ) 
 Here is how much of TeX's memory you used:
- 1733 strings out of 493089
- 25739 string characters out of 6134842
- 83352 words of memory out of 5000000
- 5233 multiletter control sequences out of 15000+600000
- 3938 words of font info for 15 fonts, out of 8000000 for 9000
+ 1786 strings out of 493089
+ 26366 string characters out of 6134842
+ 87352 words of memory out of 5000000
+ 5272 multiletter control sequences out of 15000+600000
+ 6376 words of font info for 23 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,4n,23p,235b,107s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Report.pdf (2 pages, 53911 bytes).
+ 37i,5n,23p,235b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on Report.pdf (7 pages, 255918 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
- 10 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 25 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
