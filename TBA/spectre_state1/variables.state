@@ -1,12 +1,12 @@
 savedComponent = (let
-(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10)
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15)
 (unless tmp1
 tmp1 = make_sevVariableStruct()
 )
 (unless tmp1
 tmp1 = (ncons nil)
 )
-tmp1->name = "ven3and"
+tmp1->name = "vcin2add"
 tmp1->expression = "0"
 tmp1->index = 1
 (unless tmp2
@@ -15,7 +15,7 @@ tmp2 = make_sevVariableStruct()
 (unless tmp2
 tmp2 = (ncons nil)
 )
-tmp2->name = "vinv"
+tmp2->name = "vx2add"
 tmp2->expression = "0"
 tmp2->index = 2
 (unless tmp3
@@ -24,7 +24,7 @@ tmp3 = make_sevVariableStruct()
 (unless tmp3
 tmp3 = (ncons nil)
 )
-tmp3->name = "vsel2mux"
+tmp3->name = "vy2add"
 tmp3->expression = "0"
 tmp3->index = 3
 (unless tmp4
@@ -33,7 +33,7 @@ tmp4 = make_sevVariableStruct()
 (unless tmp4
 tmp4 = (ncons nil)
 )
-tmp4->name = "vseldemux"
+tmp4->name = "vx2xor"
 tmp4->expression = "0"
 tmp4->index = 4
 (unless tmp5
@@ -42,7 +42,7 @@ tmp5 = make_sevVariableStruct()
 (unless tmp5
 tmp5 = (ncons nil)
 )
-tmp5->name = "vx2and"
+tmp5->name = "vy2xor"
 tmp5->expression = "0"
 tmp5->index = 5
 (unless tmp6
@@ -51,7 +51,7 @@ tmp6 = make_sevVariableStruct()
 (unless tmp6
 tmp6 = (ncons nil)
 )
-tmp6->name = "vx2or"
+tmp6->name = "ven3and"
 tmp6->expression = "0"
 tmp6->index = 6
 (unless tmp7
@@ -60,7 +60,7 @@ tmp7 = make_sevVariableStruct()
 (unless tmp7
 tmp7 = (ncons nil)
 )
-tmp7->name = "vx3and"
+tmp7->name = "vinv"
 tmp7->expression = "0"
 tmp7->index = 7
 (unless tmp8
@@ -69,7 +69,7 @@ tmp8 = make_sevVariableStruct()
 (unless tmp8
 tmp8 = (ncons nil)
 )
-tmp8->name = "vy2and"
+tmp8->name = "vsel2mux"
 tmp8->expression = "0"
 tmp8->index = 8
 (unless tmp9
@@ -78,7 +78,7 @@ tmp9 = make_sevVariableStruct()
 (unless tmp9
 tmp9 = (ncons nil)
 )
-tmp9->name = "vy2or"
+tmp9->name = "vseldemux"
 tmp9->expression = "0"
 tmp9->index = 9
 (unless tmp10
@@ -87,8 +87,53 @@ tmp10 = make_sevVariableStruct()
 (unless tmp10
 tmp10 = (ncons nil)
 )
-tmp10->name = "vy3and"
+tmp10->name = "vx2and"
 tmp10->expression = "0"
 tmp10->index = 10
-list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10)
+(unless tmp11
+tmp11 = make_sevVariableStruct()
+)
+(unless tmp11
+tmp11 = (ncons nil)
+)
+tmp11->name = "vx2or"
+tmp11->expression = "0"
+tmp11->index = 11
+(unless tmp12
+tmp12 = make_sevVariableStruct()
+)
+(unless tmp12
+tmp12 = (ncons nil)
+)
+tmp12->name = "vx3and"
+tmp12->expression = "0"
+tmp12->index = 12
+(unless tmp13
+tmp13 = make_sevVariableStruct()
+)
+(unless tmp13
+tmp13 = (ncons nil)
+)
+tmp13->name = "vy2and"
+tmp13->expression = "0"
+tmp13->index = 13
+(unless tmp14
+tmp14 = make_sevVariableStruct()
+)
+(unless tmp14
+tmp14 = (ncons nil)
+)
+tmp14->name = "vy2or"
+tmp14->expression = "0"
+tmp14->index = 14
+(unless tmp15
+tmp15 = make_sevVariableStruct()
+)
+(unless tmp15
+tmp15 = (ncons nil)
+)
+tmp15->name = "vy3and"
+tmp15->expression = "0"
+tmp15->index = 15
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15)
 )
