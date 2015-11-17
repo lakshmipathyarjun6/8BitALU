@@ -1,23 +1,10 @@
-<<<<<<< HEAD
-(mdlOpts additionals) ""
-(mdlOpts libName) ""
 (mdlOpts viewName) ""
-(mdlOpts cellName) ""
-(mdlOpts mdlFrom) "From File"
-(mdlOpts mdlFile) ""
 (mdlOpts engFormat) 6
+(mdlOpts cellName) ""
+(mdlOpts mdlFile) ""
+(mdlOpts formatType) "Default"
+(mdlOpts libName) ""
 (mdlOpts enable) nil
-(mdlOpts precFormat) "%.15g"
-(mdlOpts formatType) "Default"
-=======
-(mdlOpts engFormat) 6
-(mdlOpts formatType) "Default"
-(mdlOpts cellName) ""
-(mdlOpts viewName) ""
-(mdlOpts libName) ""
-(mdlOpts mdlFile) ""
 (mdlOpts additionals) ""
 (mdlOpts precFormat) "%.15g"
 (mdlOpts mdlFrom) "From File"
-(mdlOpts enable) nil
->>>>>>> bc091848aea11d3e5caa0a054599999178171078
