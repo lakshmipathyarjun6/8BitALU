@@ -1,0 +1,468 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  12 NOV 2015 23:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**Report.tex
+(./Report.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\enitkv@toks@=\toks14
+\labelindent=\skip43
+\enit@outerparindent=\dimen103
+\enit@toks=\toks15
+\enit@inbox=\box26
+\enitdp@description=\count87
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(./Report.aux)
+\openout1 = `Report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+
+(/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen106
+\scratchbox=\box27
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen107
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks18
+) (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Underfull \hbox (badness 10000) in paragraph at lines 12--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--35
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 35.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+ [1
+
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 69.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 69.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 69.
+
+<3and.png, id=9, 616.3025pt x 626.34pt>
+File: 3and.png Graphic file (type png)
+ <use 3and.png>
+Package pdftex.def Info: 3and.png used on input line 73.
+(pdftex.def)             Requested size: 246.51663pt x 250.53156pt.
+
+<xor.png, id=11, 1055.945pt x 649.42625pt>
+File: xor.png Graphic file (type png)
+ <use xor.png>
+Package pdftex.def Info: xor.png used on input line 76.
+(pdftex.def)             Requested size: 316.78595pt x 194.82938pt.
+
+<tgate.png, id=12, 585.18625pt x 559.08875pt>
+File: tgate.png Graphic file (type png)
+ <use tgate.png>
+Package pdftex.def Info: tgate.png used on input line 90.
+(pdftex.def)             Requested size: 234.07034pt x 223.63153pt.
+
+<shift.png, id=13, 888.31876pt x 638.385pt>
+File: shift.png Graphic file (type png)
+ <use shift.png>
+Package pdftex.def Info: shift.png used on input line 93.
+(pdftex.def)             Requested size: 266.49768pt x 191.51697pt.
+
+<demuxpart.png, id=14, 795.97375pt x 645.41125pt>
+File: demuxpart.png Graphic file (type png)
+ <use demuxpart.png>
+Package pdftex.def Info: demuxpart.png used on input line 96.
+(pdftex.def)             Requested size: 318.38387pt x 258.15993pt.
+
+<8mux.png, id=15, 562.1pt x 619.31375pt>
+File: 8mux.png Graphic file (type png)
+ <use 8mux.png>
+Package pdftex.def Info: 8mux.png used on input line 102.
+(pdftex.def)             Requested size: 224.83601pt x 247.72112pt.
+
+<add.png, id=16, 1091.07625pt x 635.37375pt>
+File: add.png Graphic file (type png)
+ <use add.png>
+Package pdftex.def Info: add.png used on input line 109.
+(pdftex.def)             Requested size: 436.42278pt x 254.14499pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Overfull \hbox (46.42278pt too wide) in paragraph at lines 54--125
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--125
+
+ []
+
+[2] [3 <./3and.png> <./xor.png>] [4 <./tgate.png>] [5 <./shift.png> <./demuxpar
+t.png>] [6 <./8mux.png>] <AndDelay.png, id=39, 977.6525pt x 646.415pt>
+File: AndDelay.png Graphic file (type png)
+
+<use AndDelay.png>
+Package pdftex.def Info: AndDelay.png used on input line 126.
+(pdftex.def)             Requested size: 391.05408pt x 258.56142pt.
+
+Overfull \hbox (18.6789pt too wide) in paragraph at lines 126--144
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--144
+
+ []
+
+[7 <./add.png>] [8 <./AndDelay.png>] (./Report.aux) ) 
+Here is how much of TeX's memory you used:
+ 1820 strings out of 493089
+ 26929 string characters out of 6134842
+ 92352 words of memory out of 5000000
+ 5302 multiletter control sequences out of 15000+600000
+ 7288 words of font info for 26 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 37i,5n,23p,235b,185s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Report.pdf (8 pages, 278562 bytes).
+PDF statistics:
+ 64 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
