@@ -5,12 +5,12 @@
 #
 LockStakeVersion               1.1
 LoginName                      joraaver
-HostName                       eeapps04.seas.ucla.edu
-ProcessIdentifier              22963
-ProcessCreationTime_UTC        1447823841
-ProcessCreationTime_Readable   Tue Nov 17 21:17:21 2015 PST
+HostName                       eeapps03.seas.ucla.edu
+ProcessIdentifier              7771
+ProcessCreationTime_UTC        1447921604
+ProcessCreationTime_Readable   Thu Nov 19 00:26:44 2015 PST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
 FilePathUsedToEditLock         /w/home.01/cs/ugrad/joraaver/ee115c/8BitALU/Master/layout/layout.oa.cdslck
-TimeEditLocked                 Tue Nov 17 21:34:37 2015 PST
+TimeEditLocked                 Thu Nov 19 00:44:13 2015 PST
