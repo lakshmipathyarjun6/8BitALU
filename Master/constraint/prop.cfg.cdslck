@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      joraaver
+HostName                       eeapps04.seas.ucla.edu
+ProcessIdentifier              22963
+ProcessCreationTime_UTC        1447823837
+ProcessCreationTime_Readable   Tue Nov 17 21:17:17 2015 PST
+AppIdentifier                  /w/apps3/Cadence/IC615/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /w/home.01/cs/ugrad/joraaver/ee115c/8BitALU/Master/constraint/prop.cfg
+TimeEditLocked                 Tue Nov 17 21:28:47 2015 PST
