@@ -5,12 +5,12 @@
 #
 LockStakeVersion               1.1
 LoginName                      lakshmip
-HostName                       eeapps02.seas.ucla.edu
-ProcessIdentifier              18922
-ProcessCreationTime_UTC        1447993696
-ProcessCreationTime_Readable   Thu Nov 19 20:28:16 2015 PST
+HostName                       eeapps01.seas.ucla.edu
+ProcessIdentifier              11822
+ProcessCreationTime_UTC        1448028123
+ProcessCreationTime_Readable   Fri Nov 20 06:02:03 2015 PST
 AppIdentifier                  /w/apps3/Cadence/IC615/tools/dfII/bin/64bit/virtuoso
 OSType                         lnx86
 ReasonForPlacingEditLock       
 FilePathUsedToEditLock         /w/home.02/cs/ugrad/lakshmip/ee115c/8BitALU/Master/constraint/prop.cfg
-TimeEditLocked                 Thu Nov 19 22:44:54 2015 PST
+TimeEditLocked                 Fri Nov 20 06:02:50 2015 PST

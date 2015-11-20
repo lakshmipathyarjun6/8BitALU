@@ -1,0 +1,3 @@
+projectDir = '"~/simulation"
+designInfo = '("8BitALU" "tb_master" "schematic" "spectre")
+descriptionText = "None"
