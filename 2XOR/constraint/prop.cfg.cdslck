@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      lakshmip
+HostName                       eeapps02.seas.ucla.edu
+ProcessIdentifier              18922
+ProcessCreationTime_UTC        1447993696
+ProcessCreationTime_Readable   Thu Nov 19 20:28:16 2015 PST
+AppIdentifier                  /w/apps3/Cadence/IC615/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       
+FilePathUsedToEditLock         /w/home.02/cs/ugrad/lakshmip/ee115c/8BitALU/2XOR/constraint/prop.cfg
+TimeEditLocked                 Thu Nov 19 21:23:19 2015 PST
