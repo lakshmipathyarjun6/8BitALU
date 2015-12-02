@@ -9,6 +9,8 @@
 		Arjun Lakshmipathy, ID: 804158733 \\
 		Joraaver Chahal, ID: 304200975
 	\end{center}
+  \section{}
+
 	\textbf{High Level Description:}
 	\newline \newline
 	Our decided implementation of the bit slice for this 8 bit ALU attempted to target
@@ -141,6 +143,78 @@
 	one operation in particular - loading X into memory. For this reason, one particular input pin 
 	of the 8-input MUX has been left dangling. It will be connected to the loaded bit value of
 	X after this block has been implemented. 
+  \section{}
+	
+  \textbf{Layouts}
+  \newline \newline
+  The layouts werw a semi-complicated beast. Once we got the hang of creating the module layouts
+  and have them be in the larger circuits, the process got easier. However, every time an LVS failed
+  somewhere lower down, each higher circuit needed to be redone to accomadate for said changes.
+  \newline \newline
+  The master layout:
+  \newline \newline
+  \includegraphics[scale=0.5]{masterlayout.png} \\
+  \newline \newline
+  As you can see, the adder is easily the largest module in the layout. 
+  \newline \newline
+  \includegraphics[scale=0.5]{adderlayout.png} \\
+  \newline \newline
+  Which, in turn, has XOR's and AND's. Obviously, the XOR is bigger than the AND.
+  \newline \newline
+  \includegraphics[scale=0.5]{shiftlayout.png} \\
+  \newline \newline
+  The shifter, made of 2MUX's is relatively straightforward when moving from schematic to layout.
+  \newline \newline
+  \includegraphics[scale=0.5]{muxlayout.png} \\
+  \newline \newline
+  And the mux has 2TGATE's and an INVERTER. Simple, straightforward compared to the master.
+  \newline \newline
+  \includegraphics[scale=0.5]{8muxlayout.png} \\
+  \newline \newline
+  The 8 mux wasn't straightforward, however. But it's layout was repetitive, which in its very nature 
+  made mistakes easier to catch.
+  \newline \newline
+  All in all, the only headache came when, for no reason, the automatic routing would simply not the
+  Vdd and Gnd connections, or wire the body of the transistors to the wrong placed. 
+  \newline \newline
+	\textbf{A Look at the Adder Delay}
+  \newline \newline
+  For the adder, as mentioned previously we used the carry-lookahead methodology to implement it.
+  From there, we took two measurements: one of the propagation delay on the ouput, and the other on
+  the propagation delay of the carry-out. The following graphics demonstrate the delays:
+  \newline \newline
+  \newline \newline
+  Delay of sum on the adder:
+  \newline \newline
+  \newline \newline
+  \includegraphics[scale=0.4]{delaysum.png} \\
+  \newline \newline
+  \newline \newline
+  \newline \newline
+  \newline \newline
+  Delay of cout on the adder:
+  \newline
+  \includegraphics[scale=0.4]{delaycout.png} \\
+  \newline \newline
+  As the graphs portray, the sum takes about 17.057 ns and the cout takes about 19.29 ns. That's
+  not good. but we will fix that by doing better transistors sizing to pass the constants necessary
+  for the cout to come faster. Currently, they are all of uniform size, which is not ideal and will
+  be fixed in a timely manner.
+  \newline \newline
+	\textbf{Energy Consumption}
+  \newline \newline
+  The dynamic energy consumption is a factor of the amount of swiching done by the transistors due
+  the work being done. Using the Calculator in Cadence, the graphic below demonstrates that energy 
+  consumption (and power, for that matter).
+  \newline \newline
+  \includegraphics[scale=0.4]{energy.png} \\
+  \newline \newline
+  The peak power output was about 164 $\mu$ W, and the dynamic energy consumption is about 1.44 pJ.
+  This is represtentative of a majority of the paths in our circuit. If anything, only the subtract
+  instruction will incur a slightly larger energy consumption. Other than that, the energy is upper-bounded
+  by this, since use of the adder in the ALU is the most expensive procedure.
+    
+  
 
 
 \end {document}
