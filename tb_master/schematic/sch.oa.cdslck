@@ -12,5 +12,5 @@ ProcessCreationTime_Readable   Wed Dec  2 00:12:21 2015 PST
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /w/home.02/cs/ugrad/lakshmip/ee115c/8BitALU/Master/constraint/hierDesign.oa.cdslck
-TimeEditLocked                 Wed Dec  2 00:45:30 2015 PST
+FilePathUsedToEditLock         /w/home.02/cs/ugrad/lakshmip/ee115c/8BitALU/tb_master/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Dec  2 00:59:14 2015 PST
