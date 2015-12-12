@@ -2,6 +2,7 @@
 \usepackage{enumitem}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{hyperref}
 \usepackage{empheq}
 \usepackage{graphicx}
 \begin {document}
@@ -269,14 +270,16 @@ if necessary. For the full module and its corresponding testbench, please see th
  \newline \newline
 \textbf{Remaining Components}
 \newline \newline
+\textbf{Go to \url{https://github.com/abcde13/8BitALUVerilog} for better view of this part. This is the same as the README*}
+
 Structure:
 \newline \newline
 The layout is as follows, from top-bottom
 \begin{enumerate}
 	\item main.v OR demonstrate.v (explained later)
-	\item control.v
-	\item datapath.v
-	\item ALU.v
+	\item control.v -- Takes opcode breaks it down to produce proper enable and select bits
+	\item datapath.v -- Takes control signals and properly determines ALU inputs
+	\item ALU.v -- combines 16 bit-slices
 	\item bitslice.v
 	\item adder.v/subtractor.v
 \end{enumerate}
@@ -325,14 +328,12 @@ If the last four bits are a datapth operation (Load into A/B/C) then the followi
 For example, if we wanted to first store something from Z into B, the following opcode would handle it (spaced out for convenience):
 \newline \newline
 1  0  0  0  1  0  0      0      1   0   1   1
-M1 M2 M3 M4 M5 M5 RegOut RegOut ALU ALU ALU ALU
 \newline \newline
 This means that mux-1 choses to receive input from feedback. Mux 2-4 we don't care about since the operation doesn't involve them. Mux-5 with 10 means to read from Z. RegOut is 0 0 because we are not writing to any output register. Finally, ALU code 1011 means load into B.
 \newline \newline
 Then, if we want to calculate the bitwise and B with what is currently in Y and store it in Z, the following opcode would handle it:
 \newline \newline
 0  0  1  1  0  1  1      0      0   1   1   0
-M1 M2 M3 M4 M5 M5 RegOut RegOut ALU ALU ALU ALU
 \newline \newline
 Mux-1,2 are don't cares. Mux-3 being 1 means to read from register B, and Mux-4 being 1 means to read from feeback (from output registers). Mux-5 being 01 means to read from output register Y, and RegOut of 10 means to write to register Z. ALU opcode 0110 indicates to perform the bitwise \& of the two operators. 
 \newline \newline
@@ -340,9 +341,9 @@ That's all there is to it. This same documentation (minus the examples) is in co
 \newline \newline
 Final Notes:
 \begin{enumerate}
-	\item For the last few Verilog modules, they were developed locally on a Mac using [Icarus Verilog](http://iverilog.icarus.com/). It, 
-	for all intensive purposes, should work in ModelSim as well. However, if it doesn't work, please contact Joraaver Chahal, and don't 
-	immediately deduct points please. The connection was too slow and becoming a realy pain to work on ModelSim via ssh, and I took 
+  \item For the last few Verilog modules, they were developed locally on a Mac using \href{http://iverilog.icarus.com/}{Icarus Verilog}. It, 
+	for all intensive purposes, should work in ModelSim as well. It works. Joraver pulled an all-nighter to test it.
+  However, the connection was too slow and becoming a real pain to work on ModelSim via ssh, and I took 
 	the initative to find a local development environment dad the did the trick. Frankly, I think Icarus Verilog does a great, minimalist job 
 	for compiling and testing Verilog tools. It dropped support of a synthesis tool, but other open source synthesis tools exist for 
 	FPGA's, so that's not a problem.
